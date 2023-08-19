@@ -1,5 +1,5 @@
 <h1 align="center">
-  Coffee Delivery
+  Pérola - WIP
 </h1>
 
 <p align="center">
@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kaikySantos/coffe-delivery">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunobarretta/perola">
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kaikySantos/coffe-delivery">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brunobarretta/perola">
 
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/kaikySantos/coffe-delivery">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brunobarretta/perola">
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kaikySantos/coffe-delivery">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunobarretta/perola">
 </p>
 
 <p align="center">
