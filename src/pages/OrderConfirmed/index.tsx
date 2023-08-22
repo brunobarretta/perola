@@ -30,6 +30,8 @@ export function OrderConfirmedPage() {
 
   if (!state) return <></>
 
+  console.log(state)
+
   return (
     <OrderConfirmedContainer className="container">
       <div>
@@ -46,7 +48,7 @@ export function OrderConfirmedPage() {
             iconColor={colors['brand-purple']}
             text={
               <RegularText>
-                Entrega em
+                Entrega em 
                 <strong>
                   {state.street}, {state.number}
                 </strong>

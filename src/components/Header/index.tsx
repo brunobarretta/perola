@@ -1,13 +1,15 @@
 import { HeaderButton, HeaderButtonsContainer, HeaderContainer } from './styles'
 
-import { MapPin, ShoppingCart } from 'phosphor-react'
+import { MapPin, Power, ShoppingCart, User } from 'phosphor-react'
 
 import coffeLogoImage from '../../assets/coffe-delivery-logo.svg'
 import { NavLink } from 'react-router-dom'
 import { useCart } from '../../hooks/useCart'
+import { useUser } from '../../hooks/useUser'
 
 export function Header() {
   const { cartQuantity } = useCart()
+  const { user, logOutUser } = useUser()
 
   return (
     <HeaderContainer>
@@ -27,6 +29,14 @@ export function Header() {
               <ShoppingCart size={20} weight="fill" />
             </HeaderButton>
           </NavLink>
+          <NavLink to="/login">
+            <HeaderButton variant="purple">
+              <User size={20} weight="fill" />
+            </HeaderButton>
+          </NavLink>
+          {user ?<HeaderButton style={{cursor: "pointer"}} variant="purple">
+            <Power size={20} weight="fill" onClick={() => logOutUser()}/>
+          </HeaderButton> : null}
         </HeaderButtonsContainer>
       </div>
     </HeaderContainer>
